@@ -1,0 +1,8 @@
+#idCard{
+    background:rgb(23, 162, 103) ;
+    border: 100px rgba(121, 101, 219, 0.94);
+    height: 50px;
+    width: 100px;
+    margin: 25;
+    text-align: center;
+}

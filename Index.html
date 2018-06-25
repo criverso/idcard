@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="Style.CSS">
+
+    </head>
+    <body align="center">
+
+
+        <h1>ID Card</h1>
+
+            <div><p>First Name</p><input type="text" id="firstName"
+            placeholder="Insert Name Here"></div>
+            <br/>
+
+            <div><p>Last Name</p><input type= "text" id="lastName"
+            placeholder="Insert Name Here"></div>
+            <br/>
+
+            <div><p>Phone Number</p><input type="number" id="phoneNumber"
+            placeholder="Phone Number"></div>
+            <br/>
+
+            <div><p>Address</p><input type="text" id="Address"
+            placeholder="Insert Address"></div>
+            <br/>
+
+
+
+            <div><p>Age</p><input type="number" id="Age"
+            placeholder="Insert Age"></div>
+            <br/>
+
+
+        <button onclick="generateID()">generateID!
+        </button>
+
+
+    <div id="background">
+
+        <img src="https://www.uv.mx/sin-humo/files/2014/06/Ponentes.png"height="100"width="100">
+
+        <div id="title" >
+            <font size="9"><div id="idName"class= "lefty"></div>
+            <div id="idLastName" class="righty"></div></font>
+
+        <div id="idCard">
+
+
+
+
+             <div id="idAge"></div>
+            <div id="idAddress"></div>
+            <div id="idphoneNumber"></div>
+
+
+
+
+        </div>
+    </div>
+
+        <script
+        src="app.js">
+        </script>
+    </body>
+</html>

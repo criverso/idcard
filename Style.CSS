@@ -1,0 +1,79 @@
+body{
+    background: rgb(36, 175, 235);
+
+}
+
+.lefty{
+    width: 50%;
+    float: left;
+
+}
+.righty{
+    width: 45%;
+    float: right;
+    margin-right: 30PX;
+}
+#idCard{
+    padding-top:  180PX;
+    padding-left: 60px;
+    text-align: left;
+
+
+
+
+
+
+
+}
+
+}
+#title{
+
+    text-align: center;
+
+}
+#background{
+
+    border: 4px solid black;
+    background:rgb(23, 162, 103) ;
+    height: 400px;
+    width: 600px;
+    margin: 25px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.div1{
+    text-align: left;
+
+
+}
+
+
+.idName{
+    text-align: center;
+
+}
+
+img{
+    margin-top: 40px;
+margin-left: 20px;
+    float: left;
+}
+
+
+}
+.p{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: auto;
+    width: 50px;
+
+}
+.button{
+    align-self: center;
+    padding: 20px;
+    margin-top: 20px;
+    height: 50px;
+
+}
